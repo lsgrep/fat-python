@@ -4,7 +4,7 @@ LABEL E-mail="yusup@lsgrep.com"
 LABEL version="0.0.1"
 ENV PYTHONDONTWRITEBYTECODE 1
 RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7
-RUN apt update &&  apt install gcc g++ postgresql-client unixodbc-dev libpng-dev default-libmysqlclient-dev -y
+RUN apt update &&  apt install libpq-dev gcc g++ postgresql-client unixodbc-dev libpng-dev default-libmysqlclient-dev -y
 
 # add packages
 RUN pip install --upgrade setuptools
