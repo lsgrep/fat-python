@@ -19,4 +19,6 @@ RUN pip install mysqlclient
 RUN pip install psycopg2
 RUN pip install sqlalchemy
 RUN pip install convertdate
+RUN pip install holidays
+RUN pip install plotly
 RUN pip install fbprophet
