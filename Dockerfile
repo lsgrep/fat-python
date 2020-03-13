@@ -22,4 +22,5 @@ RUN pip install convertdate
 RUN pip install LunarCalendar
 RUN pip install holidays
 RUN pip install plotly
+RUN pip install pystan==2.17
 RUN pip install fbprophet
