@@ -4,7 +4,8 @@
 
 * docker pull lsgrep/fat-python
 
-#### System libraries for databases
+#### Supported Databases:
 * MySQL, SQL Server, PostgreSQL
-#### Python Libraries for Data Science
+
+#### Included Python Libraries for Data Science:
 * TensorFlow, Numpy, Matplotlib, Pandas, XgBoost, Seaborn, Sklearn, Fbprophet
