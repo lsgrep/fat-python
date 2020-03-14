@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 # workaround for postgresql-client https://github.com/debuerreotype/docker-debian-artifacts/issues/64
 RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7
-RUN apt update &&  apt install libpq-dev gcc g++ postgresql-client unixodbc-dev libpng-dev default-libmysqlclient-dev -y
+RUN apt update &&  apt install libpq-dev gcc libssl-dev g++ postgresql-client unixodbc-dev libpng-dev default-libmysqlclient-dev -y
 
 # add packages
 RUN pip install --upgrade setuptools
